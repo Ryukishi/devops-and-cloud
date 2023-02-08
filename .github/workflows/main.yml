@@ -2,9 +2,7 @@ name: Build Test and push
 on: [push]
 env:
   IMAGE_NAME: student_service
-  REPO_NAME:
-
-
+  REPO_NAME: donovan2806
 jobs:
   build:
     runs-on: ubuntu-latest
